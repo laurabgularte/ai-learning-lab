@@ -92,10 +92,16 @@ yarn-error.log*
 *.sqlite
 *.sqlite3
 
-# Pastas de dados/modelos (descomente se preferir isolar em diretórios)
-# data/raw/
-# data/processed/
-# models/checkpoints/
+# Pastas de dados/modelos
+# Ignora tudo dentro das pastas de dados
+data/raw/*
+data/processed/*
+models/checkpoints/*
+
+# Mas não ignora o arquivo .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/checkpoints/.gitkeep
 
 # ==========================================
 # 6. ARQUIVOS DO SISTEMA OPERACIONAL E IDES
