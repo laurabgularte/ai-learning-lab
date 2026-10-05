@@ -1,0 +1,119 @@
+# ==========================================
+# 1. SEGREDOS, CHAVES E CREDENCIAIS (CRÍTICO)
+# ==========================================
+# Variáveis de ambiente e segredos
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Permite versionar apenas o modelo de exemplo
+!.env.example
+
+# Chaves privadas, certificados e tokens
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.json
+credentials.json
+service_account.json
+
+# ==========================================
+# 2. AMBIENTES VIRTUAIS E DEPENDÊNCIAS
+# ==========================================
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Build e empacotamento Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Node.js / JavaScript (se houver frontend ou backend JS)
+node_modules/
+.next/
+out/
+
+# ==========================================
+# 3. CACHE E TEMPORÁRIOS DE CÓDIGO
+# ==========================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# 4. JUPYTER NOTEBOOKS E CHECKPOINTS
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# 5. MODELOS DE IA, PESOS E DATASETS PESADOS
+# ==========================================
+# Arquivos de pesos / checkpoints de LLMs e Redes Neurais
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.tflite
+
+# Datasets locais e Bancos de Dados
+*.csv
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+
+# Pastas de dados/modelos (descomente se preferir isolar em diretórios)
+# data/raw/
+# data/processed/
+# models/checkpoints/
+
+# ==========================================
+# 6. ARQUIVOS DO SISTEMA OPERACIONAL E IDES
+# ==========================================
+# macOS / Windows
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# VS Code / JetBrains / PyCharm
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
