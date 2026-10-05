@@ -4,7 +4,7 @@ Repositório dedicado ao estudo prático, experimentação e construção de apl
 
 ---
 
-## 🗺️ Trilha de Aprendizado (em constante atualização)
+## 🗺️ Trilha de Aprendizado
 
 A estrutura de estudos segue a progressão natural de abstração e complexidade em IA:
 
