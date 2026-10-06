@@ -91,16 +91,14 @@ yarn-error.log*
 *.db
 *.sqlite
 *.sqlite3
+*.gz
 
-# Pastas de dados/modelos
-# Ignora tudo dentro das pastas de dados
-data/raw/*
-data/processed/*
-models/checkpoints/*
+# Ignora QUALQUER pasta de dados (raiz ou subpastas de módulos)
+**/data/
+data/
 
-# Mas não ignora o arquivo .gitkeep
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Mas não ignora o arquivo .gitkeep (se usar estrutura fixa)
+!**/data/.gitkeep
 !models/checkpoints/.gitkeep
 
 # ==========================================
