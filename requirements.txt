@@ -1,0 +1,20 @@
+# Base Data Science & ML
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.3.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Deep Learning & Computer Vision
+torch>=2.2.0
+torchvision>=0.17.0
+
+# GenAI & LLMs
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+tiktoken>=0.6.0
+
+# Formatação e Linting de Notebooks
+black[jupyter]>=24.0.0
+ruff>=0.2.0
+nbqa>=1.8.0
